@@ -49,7 +49,7 @@ public class BoardManager : MonoBehaviour {
 
     void BoardSetup()
     {
-        boardHolder = new GameObject("Board").transform;
+        boardHolder = new GameObject ("Board").transform;
         for (int x = -1; x < columns + 1; x++)
         {
             for (int y = -1; y < rows + 1; y++)
